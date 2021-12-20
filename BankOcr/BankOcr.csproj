@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk; Microsoft.Build.CentralPackageVersions">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>10.0</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Funcky" />
+        <PackageReference Include="Funcky.Analyzers" PrivateAssets="all" />
+        <PackageReference Include="Funcky.DiscriminatedUnion" PrivateAssets="all" />
+    </ItemGroup>
+</Project>
