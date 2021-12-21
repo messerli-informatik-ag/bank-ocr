@@ -1,9 +1,10 @@
 {
   "sdk": {
-    "version": "6.0.100",
-    "rollForward": "feature"
+    "version": "6.0",
+    "rollForward": "feature",
+    "allowPrerelease": true
   },
   "msbuild-sdks": {
-    "Microsoft.Build.CentralPackageVersions" : "2.0.79"
+    "Microsoft.Build.CentralPackageVersions": "2.0.79"
   }
 }
